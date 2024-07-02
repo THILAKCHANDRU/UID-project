@@ -1,0 +1,227 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display:none;
+}
+
+body{
+    padding-top: 200px;
+}
+
+.r1{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: black;
+    z-index: 100;
+   
+}
+
+.menufont{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.3s ease-out;
+
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    padding-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    background-color: black;
+    
+
+}
+
+.menufont:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-in;
+}
+
+.doctorimg{
+    margin-left: 0px;
+}
+
+
+.quotediv{
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(129, 123, 123), rgb(90, 84, 84), rgb(54, 49, 49) ,rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0));
+    padding:0px;
+    height:450px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+    margin-bottom: 60px;
+}
+
+.quote{
+    color: white;
+    display: inline-block;
+    margin-top: 190px;
+    font-size: 30px;
+    font-weight: 400;
+    
+    
+}
+
+
+.patientimg{
+         width: 350px;
+}
+
+.docbut{
+    border: 1px solid white ;
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.5);
+    margin-left: 700px;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding-top:6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+    padding-left:10px ;
+    font-weight: 300;
+}
+
+
+hr{
+    border-width: 0.2px solid rgba(255, 255, 255, 0.438);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 80px;
+    color: black;
+}
+.importance{
+    background-color: white;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    padding-bottom:30px;
+}
+
+.info1{
+    height: 200px;
+    width: 400px;
+    border: 1px solid rgba(102, 102, 102, 0.329);
+    
+    padding-left:40px;
+    padding-right:20px ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    transition: 0.2s ease-out;
+}
+
+.info1:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(155, 155, 155, 0.432);
+}
+
+.infobox1{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.infobox2{
+    
+        margin-left: 40px;
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        padding-bottom: 30px;
+        
+    
+}
+
+.social{
+    background-color: rgb(153, 153, 153);
+    height: 620px;
+    margin-top: 0px;
+    margin: 0;
+}
+
+.botcont{
+    padding-top: 25px;
+    display:flex;
+    flex-direction:row;
+    column-gap:30px;
+    padding-left: 28%;
+}
+
+.botcont1{
+    width: 200px;
+}
+
+.sociallinks{
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+    padding-left: 39%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logbut{
+    border: 1px solid white ;
+    border-radius: 8px;
+    font-size: 15px;
+    color:white;
+    background-color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    margin-top:8px;
+}
+
+.logbut:hover{
+    cursor: pointer;
+    background-color: white;
+    color:black;
+}
+
+.docbut:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 8px rgb(158, 152, 152);
+    transform: scale(1.6);
+
+}
+
+.hiw{
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0;
+    border-color: rgb(0, 0, 0);
+}
+

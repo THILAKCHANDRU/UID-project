@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <!--page icon-->
+    <link rel="icon" type="image/x-icon" href="Pageicon1.jpg">
+    <link rel="stylesheet" href="signin.css">
+    <!--Fontawsome-->
+    <script src="https://kit.fontawesome.com/83da6a218a.js" crossorigin="anonymous"></script>
+    <!--Fontawsome-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Lilita+One&family=Righteous&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="title">
+        <h1 style="font-family: 'Righteous', cursive;color:white;font-weight: 100;font-size: 40px;">Mediclined</h1>
+    </div>
+
+    <div class="container">
+        <div class="box2">
+            <span style="margin: 0px;font-size: 50px;color: #ffffff;    font-family: 'Poppins', sans-serif">Sign in</span>
+        </div> 
+        
+        <div class="box3">
+            <input type="text" class="username" id="username" placeholder="Username" required>
+            <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+        </div>
+        <br>
+        <div class="box3">
+            <input type="email" class="username" id="username" placeholder="Email" required>
+            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+        </div>
+        <br>
+        <div class="box3">
+            <input type="tel" class="username" id="username"  placeholder="Phone Number" pattern="[0-9]{10}" required>
+            <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+        </div>
+        <br>
+        
+        <div>
+            <label for="gender" style="font-size: 18px;">Select your GENDER<span style="color: red;"> *</span></label><br><br>
+            <select name="gender" id="gender" class="gender">
+                <option value="0" class="genop">Select</option>
+                <option value="1" class="genop">Male</option>
+                <option value="2" class="genop">Female</option>
+                <option value="3" class="genop">Rather Not Say</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="address" style="font-size: 18px;" class="">ADDRESS<span style="color: red;"> *</span></label><br><br>
+            <textarea name="address" id="address" cols="50" rows="5" class="address"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="country" style="font-size: 18px;" >Select your COUNTRY<span style="color: red;"> *</span></label><br><br>
+            <select name="country" id="country" class="country">
+                <option value="1" class="cop">Argentina</option>
+                <option value="2" class="cop">Brazil</option>
+                <option value="3" class="cop">Portugal</option>
+            </select>
+        </div>
+        <div class="box4">
+            <input type="password" class="username" id="password" placeholder="Password" required style="margin-bottom: 30px;">
+            <i class="fa-solid fa-lock" style="color: #ffffff;"></i>
+        </div>
+        <div class="box4">
+            <input type="password" class="username" id="password" placeholder="Confirm Password" required>
+            <i class="fa-solid fa-lock" style="color: #ffffff;"></i>
+        </div>
+        <br>
+        <br>
+        <div class="buts">
+            <div>
+                <input type="submit" class="submit">
+            </div>
+           
+            <div>
+                <input type="reset" class="reset">
+            </div>
+        </div>
+        
+       
+    </div>
+</body>
+</html>
